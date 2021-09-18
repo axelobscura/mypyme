@@ -1,7 +1,9 @@
+import LayoutDashboard from './components/LayoutDashboard';
+
 export default function Dashboard(){
   return(
-    <div>
+    <LayoutDashboard>
       dashboard
-    </div>
+    </LayoutDashboard>
   )
 }
