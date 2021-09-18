@@ -1,32 +1,33 @@
 import Link from 'next/link';
+import { BsChevronRight } from "react-icons/bs";
 
 export default function MenuPrincipal() {
   return (
-    <div>
+    <div className="menuprincipal">
       <ul>
         <li>
           <Link href="/">
-            Inicio
+            <p><BsChevronRight/>Inicio</p>
           </Link>
         </li>
         <li>
           <Link href="/">
-            Antecedentes
+            <p><BsChevronRight/>Antecedentes</p>
           </Link>
         </li>
         <li>
           <Link href="/">
-            Situación
+            <p><BsChevronRight/>Situación</p>
           </Link>
         </li>
         <li>
           <Link href="/">
-            Pago de servicios
+            <p><BsChevronRight/>Pago de servicios</p>
           </Link>
         </li>
         <li>
           <Link href="/">
-            Medios de pago
+            <p><BsChevronRight/>Medios de pago</p>
           </Link>
         </li>
       </ul>

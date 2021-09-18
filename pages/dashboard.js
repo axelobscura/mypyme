@@ -13,11 +13,9 @@ export default function Dashboard(){
             <div>
             <hr/>
               <img src="/logo.jpg" alt="" title="" className="img-fluid" />
-              <hr/>
             </div>
             <MenuPrincipal/>
             <div className="d-flex flex-column">
-              <hr/>
               <img src="/logo_bienestar.jpg" alt="" title="" className="img-fluid" />
               <hr/>
               <img src="/logo_tec.jpg" alt="" title="" className="img-fluid" />
