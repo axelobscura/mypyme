@@ -6,7 +6,7 @@ export default function MenuPrincipal() {
     <div className="menuprincipal">
       <ul>
         <li>
-          <Link href="/">
+          <Link href="/inicio">
             <p><BsChevronRight/>Inicio</p>
           </Link>
         </li>

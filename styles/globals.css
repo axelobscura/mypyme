@@ -46,3 +46,12 @@ a {
   padding: 0;
   background: #12351a;
 }
+
+.contenidoDash.inicio {
+  background: #f2f2f2;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
