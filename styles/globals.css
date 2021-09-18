@@ -51,10 +51,14 @@ align-items: center;
 }
 
 .contenidoDash.inicio {
-  background: #f2f2f2;
+  background: #72b800;
   padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.contenidoDash.inicio h3 {
+  color: #fff;
 }
