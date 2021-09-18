@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MenuPrincipal from './components/MenuPrincipal';
+import Link from 'next/link';
 
 export default function Inicio(){
   return(
@@ -12,13 +13,19 @@ export default function Inicio(){
           <Col xs={2} md={2} lg={2} className="menuDash">
             <div>
             <hr/>
-              <img src="/logo.jpg" alt="" title="" className="img-fluid" />
+              <Link href="/">
+                <img src="/logo.jpg" alt="" title="" className="img-fluid" />
+              </Link>
             </div>
             <MenuPrincipal/>
             <div className="d-flex flex-column">
-              <img src="/logo_bienestar.jpg" alt="" title="" className="img-fluid" />
+              <Link href="/">
+                <img src="/logo_bienestar.jpg" alt="" title="" className="img-fluid" />
+              </Link>
               <hr/>
-              <img src="/logo_tec.jpg" alt="" title="" className="img-fluid" />
+              <Link href="/">
+                <img src="/logo_tec.jpg" alt="" title="" className="img-fluid" />
+              </Link>
               <hr/>
             </div>
           </Col>
