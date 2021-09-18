@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MenuPrincipal from './components/MenuPrincipal';
 import Link from 'next/link';
+import DashboardEntrada from './components/Dashboard';
 
 export default function Dashboard(){
   return(
@@ -29,7 +30,7 @@ export default function Dashboard(){
             </div>
           </Col>
           <Col className="contenidoDash">
-          Contenido
+           <DashboardEntrada/>
           </Col>
         </Row>
       </Container>
