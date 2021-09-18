@@ -13,3 +13,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.menuDash {
+  background: #f2f2f2;
+}
