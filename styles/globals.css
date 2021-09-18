@@ -62,3 +62,15 @@ align-items: center;
 .contenidoDash.inicio h3 {
   color: #fff;
 }
+
+.cerraron {
+  font-weight: bold;
+  padding: 0;
+  margin: 10px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.contenidoDash.inicio {
+  flex-direction: column;
+}
