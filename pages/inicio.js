@@ -30,7 +30,7 @@ export default function Inicio(){
             </div>
           </Col>
           <Col className="contenidoDash inicio">
-            <h3>Entre <b>2020 y 2021</b> más de <b>un millón</b> de micro,<br/>pequeñas y medianas empresas mexicanas<br/> en las que trabajaban casi<br/><b>3 millones de personas cerraron</b><br/>de forma definitiva por la crisis...</h3>
+            <h3>Entre <b>2020 y 2021</b> más de <b>un millón</b> de micro,<br/>pequeñas y medianas empresas mexicanas<br/> en las que trabajaban casi<br/><b>3 millones de personas cerraron</b><br/>de forma definitiva por COVID</h3>
           </Col>
         </Row>
       </Container>
