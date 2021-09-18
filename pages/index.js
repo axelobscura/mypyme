@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <main className={styles.main}>
         <Link href="/dashboard">
-          <img src="/logo.svg" alt="Cámara de comercio servicios y turismo de querétaro" title="Cámara de comercio servicios y turismo de querétaro" style={{
+          <img src="/logo.jpg" alt="Cámara de comercio servicios y turismo de querétaro" title="Cámara de comercio servicios y turismo de querétaro" style={{
             'width':'200px'
           }} />
         </Link>
