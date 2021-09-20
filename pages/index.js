@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Link href="/dashboard">
           <img src="/logo.jpg" alt="Cámara de comercio servicios y turismo de querétaro" title="Cámara de comercio servicios y turismo de querétaro" style={{
-            'width':'200px'
+            'width':'150px'
           }} />
         </Link>
       </main>
